@@ -1,0 +1,42 @@
+.movie{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-arround;
+    width:200px;
+    /* height: 100px; */
+    padding:5px;
+    margin:5px 0px;
+    border-radius: 10px;
+    position: relative;
+    background-color: blue;
+    font-family: 'M';
+    border: 1px solid black;
+
+}
+.movie:hover{
+    color: aliceblue;
+    background-color: aqua;
+
+}
+@media(max-width:550px) {
+    .movie {
+        width:46%;
+    }
+}
+.Title{
+    text-align: center;
+    padding: 8px 0px;
+    width: 100%;
+    font-size: 17px;
+}
+img{
+    /* width:100%; */
+    border-radius: 10px;
+}
+.faza{
+    display:flex;
+    /* justify-content:space-between; */
+    padding-bottom:3px;
+    padding:0px 2px; 
+
+}
